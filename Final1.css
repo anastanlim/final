@@ -1,0 +1,123 @@
+.nav.nav-pills{
+	color :white;
+	background-image:-webkit-linear-gradient(top, silver, black);
+	box-shadow:0 10px 5px rgba(0,0,0,.5);
+	padding-bottom: 0%;
+}
+.carousel{
+	box-shadow:0 10px 5px rgba(0,0,0,.5);
+
+}
+
+.thumbnail{
+	border-radius: 5%;
+	border-width: 5px;
+	border-color: white;
+	padding: 0%;
+	margin-right: 0%;
+	background: transparent;
+;
+
+}
+
+#pills{
+	color: white;
+}
+
+a {
+	color :white;
+}
+
+h3{
+	color : silver;
+	font-family : Courier New;
+
+}
+
+@font-face {
+  font-family: "Friday";
+  src: url("fonts/Friday.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "America";
+  src: url("fonts/America.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Jurassic";
+  src: url("fonts/Jurassic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Suicide";
+  src: url("fonts/Suicide.ttf") format("truetype");
+}
+
+h1{
+	font-family: "Friday";
+	font-size: 150px;
+	color: white;
+	background-color: black;
+	padding-top: 0%;
+	box-shadow:0 10px 5px rgba(0,0,0,.5);
+}
+p1{
+	font-family: "Jurassic";
+	font-size: 70px;
+}
+
+p2{
+	font-family: "Suicide";
+	font-size: 70px;
+}
+
+#top{
+	background-image: url("Images/Background.jpg");
+}
+
+/*#captain{
+	background-color: red;
+}*/
+
+
+
+#center{
+	background-image: url("Images/Background2.jpg");
+}
+
+.row{
+	border-spacing: 0px;
+}
+
+#captain{
+	background-image: url("Images/Background2.jpg");
+}
+
+#despicable{
+	background-image: url("Images/Background2.jpg");
+}
+
+#colorbackground {color:white; background:black; ; 
+	font-family: "Friday";
+	font-size: 150px;; -webkit-transition: all 0.6s ease-out; -moz-transition: all 0.6s ease-out;
+	 -ms-transition: all 0.6s ease-out; -o-transition: all 0.6s ease-out; transition: all 0.6s ease-out; } 
+#colorbackground:hover {background-image: url("Images/Background7.jpg");background-size: cover; color:white; padding-bottom: 0px; padding-top: 10px;}
+
+#colorbackground1 {color:white;); 
+	; -webkit-transition: all 0.6s ease-out; -moz-transition: all 0.6s ease-out;
+	 -ms-transition: all 0.6s ease-out; -o-transition: all 0.6s ease-out; transition: all 0.6s ease-out; } 
+#colorbackground1:hover {background-image: url("Images/Despicable3/Despicable2.jpg"); background-size: cover; color:black; padding:10px}
+
+#dunkirkback {color:white; background-image: url("Images/Background2.jpg");); 
+	; -webkit-transition: all 0.6s ease-out; -moz-transition: all 0.6s ease-out;
+	 -ms-transition: all 0.6s ease-out; -o-transition: all 0.6s ease-out; transition: all 0.6s ease-out; } 
+#dunkirkback:hover {background-image: url("Images/Background3.jpg"); color:black; padding:10px; background-size: cover;}
+
+.user_name{
+    font-size:14px;
+    font-weight: bold;
+}
+.comments-list .media{
+    border-bottom: 1px dotted #ccc;
+}

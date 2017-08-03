@@ -1,0 +1,9 @@
+html {
+	background-image: url("Images/Background8.jpg");
+	background-size: cover;
+}
+
+#colorbackground { width:90%; background:gray; color:black; border:2px solid #222; padding:15px; 
+	font:bold 20px Sans-Serif; -webkit-transition: all 0.4s ease-out; -moz-transition: all 0.4s ease-out;
+	 -ms-transition: all 0.4s ease-out; -o-transition: all 0.4s ease-out; transition: all 0.4s ease-out; } 
+#colorbackground:hover { color:white; background:black; }
