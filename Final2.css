@@ -78,7 +78,7 @@ p3{
   src: url("fonts/Suicide.ttf") format("truetype");
 }
 
-.well{
+#first{
 	background: url("Images/Dunkirk/Dunkirk1.jpg");
 	background-size: cover;
 }
@@ -98,3 +98,15 @@ p3{
 	; -webkit-transition: all 0.6s ease-out; -moz-transition: all 0.6s ease-out;
 	 -ms-transition: all 0.6s ease-out; -o-transition: all 0.6s ease-out; transition: all 0.6s ease-out; } 
 #dunkirkback:hover {background-image: url("Images/Background3.jpg"); color:black; padding:10px; background-size: cover;}
+
+.nav.nav-pills {
+	background-color: white;
+}
+
+#content{
+	color : white;
+}
+
+#second{
+	background:url("Images/Background8");
+}
