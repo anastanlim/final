@@ -1,9 +1,100 @@
-html {
+body {
 	background-image: url("Images/Background8.jpg");
 	background-size: cover;
 }
 
-#colorbackground { width:90%; background:gray; color:black; border:2px solid #222; padding:15px; 
+.nav.nav-pills{
+	color :white;
+	background-image:-webkit-linear-gradient(top, silver, black);
+	box-shadow:0 10px 5px rgba(0,0,0,.5);
+	padding-bottom: 0%;
+}
+
+.thumbnail{
+	border-color: white;
+	border-width: 5px;
+	border-radius: 5px;
+	background : transparent;
+	padding: 0px;
+
+}
+
+p{
+	text-align: justify;
+	color: white;
+	font-size: 20px;
+}
+
+h3{
+	color: white;
+	font-size: 100px;
+	text-align: center;
+	font-family: Friday;
+}
+
+
+/*#colorbackground { width:90%; background:gray; color:black; border:2px solid #222; padding:15px; 
 	font:bold 20px Sans-Serif; -webkit-transition: all 0.4s ease-out; -moz-transition: all 0.4s ease-out;
 	 -ms-transition: all 0.4s ease-out; -o-transition: all 0.4s ease-out; transition: all 0.4s ease-out; } 
 #colorbackground:hover { color:white; background:black; }
+*/
+h1{
+	/*font-family: "Friday";
+	font-size: 150px;
+	color: white;
+	background-color: black;
+	padding-top: 0%;*/
+	box-shadow:0 10px 5px rgba(0,0,0,.5);
+}
+
+#styles{
+	border-width: 5px;
+	border-color: white;
+}
+
+@font-face {
+  font-family: "Friday";
+  src: url("fonts/Friday.ttf") format("truetype");
+}
+
+p3{
+	font-size: 80px;
+	color: white;
+	font-family: Friday;
+}
+
+@font-face {
+  font-family: "America";
+  src: url("fonts/America.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Jurassic";
+  src: url("fonts/Jurassic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Suicide";
+  src: url("fonts/Suicide.ttf") format("truetype");
+}
+
+.well{
+	background: url("Images/Dunkirk/Dunkirk1.jpg");
+	background-size: cover;
+}
+
+#colorbackground {color:white; background:black;  
+	font-family: "Friday";
+	font-size: 100px;; -webkit-transition: all 0.6s ease-out; -moz-transition: all 0.6s ease-out;
+	 -ms-transition: all 0.6s ease-out; -o-transition: all 0.6s ease-out; transition: all 0.6s ease-out; } 
+#colorbackground:hover {background-image: url("Images/Background7.jpg");background-size: cover; color:white; padding-bottom: 0px; padding-top: 10px; font-size: 130px;}
+
+#colorbackground1 {color:white;  background-image: url("Images/Background.jpg"); background-size: cover;
+	; -webkit-transition: all 0.6s ease-out; -moz-transition: all 0.6s ease-out;
+	 -ms-transition: all 0.6s ease-out; -o-transition: all 0.6s ease-out; transition: all 0.6s ease-out; } 
+#colorbackground1:hover {background-image: url("Images/Background3.jpg");background-size: cover; color:white; padding:10px}
+
+#dunkirkback {color:white; background-image: url("Images/Background2.jpg");); 
+	; -webkit-transition: all 0.6s ease-out; -moz-transition: all 0.6s ease-out;
+	 -ms-transition: all 0.6s ease-out; -o-transition: all 0.6s ease-out; transition: all 0.6s ease-out; } 
+#dunkirkback:hover {background-image: url("Images/Background3.jpg"); color:black; padding:10px; background-size: cover;}
