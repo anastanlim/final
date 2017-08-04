@@ -83,6 +83,8 @@
 			var comment = document.querySelector("#comment").value
 			var review = document.querySelector('#review').value
 
+            console.log(document.querySelector('#comment'))
+
             tr = newRow(name, comment, review)
 			
 			// insert ke table
